@@ -32,7 +32,7 @@ app.get('/users', async (req, res) => {
 })
 
 app.get('*', async (req, res) => {
-    res.send()
+    res.send('unknowm endpoint')
 })
 
 
